@@ -15,7 +15,7 @@ if os.getenv('RTT_CC'):
 
 if  CROSS_TOOL == 'gcc':
     PLATFORM    = 'gcc'
-    EXEC_PATH   = r'/home/lizhirui/workspace/riscv64-toolchains/bin'
+    EXEC_PATH   = r'/home/jokeo/work/velaos/project/velaos/prebuilts/gcc/linux/risc-v/bin'
 else:
     print('Please make sure your toolchains is GNU GCC!')
     exit(0)
